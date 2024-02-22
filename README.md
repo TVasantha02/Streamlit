@@ -1,26 +1,26 @@
 # Streamlit_Basics
 
 ## Installtion
-pip install streamlit
+ pip install streamlit
 
-## Importing the library
-import streamlit as st
+## Importing the library 
+ import streamlit as st
 
 ## To display
-st.write("This is streamlit app")
+ st.write("This is streamlit app")
 
 ## To run
-streamlit run app.py (if you have saved your file name as app.py)
+ streamlit run app.py (if you have saved your file name as app.py)
 
 ## Markdown, Title and Sidebar
-st.markdown("msg")
+ st.markdown("msg")
 
-st.title("Streamlit App")
+ st.title("Streamlit App")
 
-st.sidebar.title('Options')
+ st.sidebar.title('Options')
 
 ## Streamlit background image
-st.markdown(
+ st.markdown(
    
     """
     
