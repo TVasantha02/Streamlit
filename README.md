@@ -1,28 +1,34 @@
 # Streamlit_Basics
 
 ## Installtion
- pip install streamlit
+pip install streamlit
 
 ## Importing the library 
- import streamlit as st
+import streamlit as st
 
 ## To display
- st.write("This is streamlit app")
+st.write("This is streamlit app")
 
 ## To run
- streamlit run app.py (if you have saved your file name as app.py)
+streamlit run app.py (if you have saved your file name as app.py)
 
-## Markdown, Title, Button and Sidebar
- st.markdown("msg")
+## Markdown, Title, Button, Sidebar and Header
+st.markdown("msg")
 
- st.title("Streamlit App")
+st.title("Streamlit App")
 
- st.button("Click here")
+st.button("Click here")
 
- st.sidebar.title('Options')
+st.sidebar.title('Options')
+
+with st.sidebar:
+
+    st.write('This is a sidebar')
+
+st.header('Main Content')
 
 ## Streamlit background image
- st.markdown(
+st.markdown(
    
     """
     
