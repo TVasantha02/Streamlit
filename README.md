@@ -12,10 +12,12 @@
 ## To run
  streamlit run app.py (if you have saved your file name as app.py)
 
-## Markdown, Title and Sidebar
+## Markdown, Title, Button and Sidebar
  st.markdown("msg")
 
  st.title("Streamlit App")
+
+ st.button("Click here")
 
  st.sidebar.title('Options')
 
